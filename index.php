@@ -75,7 +75,7 @@ class Index {
             $this->sendResponse($stmt->fetchAll(PDO::FETCH_ASSOC));
         }
     }
-
+// REQUISIÇÃO PRINCIPAL 
     private function handlePost() {
         $data = $this->getRequestData();
 
