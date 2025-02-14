@@ -24,11 +24,13 @@ sqlCopyCREATE TABLE users (
 
 Configure as credenciais do banco de dados no arquivo Database.php:
 
+
 phpCopyprivate $host = "localhost";
 private $db_name = "api_mvc";
 private $username = "root";
 private $password = "";
 🚀 Endpoints
+
 GET /
 
 Retorna todos os usuários
@@ -38,6 +40,7 @@ GET /?id={id}
 
 Retorna um usuário específico
 Parâmetro: id (ID do usuário)
+
 
 POST /
 
